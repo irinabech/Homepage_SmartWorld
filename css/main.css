@@ -160,9 +160,11 @@ body {
     flex-direction: column;
 }
 .section-header {
+    
     background: #fff url(../img/header/first-bg.jpg) no-repeat 50% 50% / cover;
 }
 .section-header .section-inner {
+    margin: 0 140px;
     height: 1042px;
     position: relative;
 }
