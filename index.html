@@ -4,226 +4,402 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <!-- шрифты -->
+    <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id=container>
-        <!--HEDAER---------------------------------->
-        <header class=header>
-            <div id=navbar>
-                <div id=logo>AppSon</div>
-                <nav id=menu>
-                    <a href="#">Home</a>
-                    <a href="">Features</a>
-                    <a href="">Pricing</a>
-                    <a href="">Pages</a>
+    <!--Header------------------------------------------------------------>
+    <header class="section-outer section-header">
+        <div class="section-inner">
+            <div class="section-header-navbar">
+                <div class="section-header-navbar__logo">AppSon</div>
+                <nav class="section-header-navbar__menu">
+                    <ul class="section-header-navbar__menu-list">
+                        <li><a href="#" class="section-header-navbar__menu-list__link">home</a></li>
+                        <li><a href="#features" class="section-header-navbar__menu-list__link">features</a></li>
+                        <li><a href="#pricing" class="section-header-navbar__menu-list__link">pricing</a></li>
+                        <li><a href="#pages" class="section-header-navbar__menu-list__link">pages</a></li>
+                    </ul>
                 </nav>
-                <button class="btn btn1">SIGN UP</button>
-            </div>
-            <div id=elements>
-                <div class="text">
-                    <h1>Best Desktop App for You</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna aliqua. 
-                        adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua.
-                    </p>
+                <div class="section-header-navbar__signup btn">
+                    <a href="#" class="">SIGN UP</a>
                 </div>
-                <div id=button>
-                    <button class="btn btn2">Download</button>
-                    <button class="btn btn2">Free Trial</button>
-                </div>
-                <div id=device>
-                    <div class="device dev_center"></div>
-                    <div class="device dev_right branch"></div>
-                    <div class="device dev_left branch"></div>
+                <div class="section-header-navbar__burger">
+                <span></span>
+                </div> 
+            </div> 
+            <div class="section-header-offer">
+                <div class="section-header-wrapper">
+                    <div class="section-header-wrapper__title">Best Desktop App for You</div>
+                    <div class="section-header-wrapper__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.</div>
+                    <div class="section-header-wrapper__buttons">
+                        <div class="btn blue">
+                        <a href="#" class="">Download</a>
+                        </div>
+                        <div class="btn bordered">
+                        <a href="#" class="">Free Trial</a>
+                        </div>
+                    </div> 
+                </div> 
+            </div> 
+            <div class="scroll-down">
+                <a href="#features" class="scroll-down__btn">
+                    <img src="img/header/Scroll.jpg" alt="">
+                </a>
             </div>
-        </header>
-        <!--MAIN---------------------------------->
-        <main class="main">
-            <seсtion id=features>
-                <div id=scroll_down><a href="#" title="Down" class=down></a></div>
-                <div id=cards>
-                    <div class="cards">
-                        <div class="icon icon1"></div>
-                        <div class="content_cards">
-                            <h1 class="h_cards">Analysis</h1>
-                            <p class=text>Lorem ipsum dolor sit amet, 
-                                consectetur adipisicing elit, sed do eiusmod 
-                                tempor incididunt ut labore et dolore</p>
+        </div>
+    </header>
+
+    <!--MAIN----------------------------------------------------------- -->
+    <main>
+        <section class="section-outer section-features" id="features">
+            <div class="section-inner-main">
+                <div class="section-features__icons">
+                    <div class="section-features__icon icon-1">
+                        <div class="section-features__icon-img"><img src="./img/features/Analysis.jpg" alt="icon"></div>
+                        <div class="section-features__icon-title">Analysis</div>
+                        <div class="section-features__icon-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore</div>
+                    </div>
+                    <div class="section-features__icon icon-2">
+                        <div class="section-features__icon-img"><img src="./img/features/Design.jpg" alt="icon"></div>
+                        <div class="section-features__icon-title">Clean Design</div>
+                        <div class="section-features__icon-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore</div>
+                    </div>
+                    <div class="section-features__icon icon-3">
+                        <div class="section-features__icon-img"><img src="./img/features/Messaging.jpg" alt="icon"></div>
+                        <div class="section-features__icon-title">Messaging</div>
+                        <div class="section-features__icon-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore</div>
+                    </div>
+                </div>
+            </div> 
+        </section> 
+
+        <section class="section-outer section-about">
+            <div class="section-inner-about">
+                <div class="section-about__container">
+                    <div class="section-about__container-pics">
+                        <div class="diamond"></div>
+                        <img src="img/about/Clip1.png" alt="" class="back-pic"><img src="img/about/Clip2.png" alt="" class="front-pic">
+                    </div> 
+                    <div class="section-about__container-info">
+                        <div class="section-about__container-title">Easy Messaging</div>
+                        <div class="section-about__container-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        <a href="#" class="section-about__container-read-more">Read More &rarr;</a>
+                    </div>
+                </div>
+                <div class="section-about__container second">
+                    <div class="section-about__container-pics">
+                        <div class="diamond"></div>
+                        <img src="img/about/Clip3.png" alt="" class="back-pic"><img src="img/about/Clip4.png" alt="" class="front-pic">
+                    </div> 
+                    <div class="section-about__container-info">
+                        <div class="section-about__container-title">Keep In Touch</div>
+                        <div class="section-about__container-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        <a href="#" class="section-about__container-read-more">Read More &rarr;</a>
+                    </div>
+                </div>
+            </div> 
+        </section> 
+    
+        <section class="section-outer section-how">
+            <div class="section-inner how">
+                <div class="section-how__title">How Does It Works?</div>
+                <div class="section-how__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.</div>
+                <div class="section-how__instruction">
+                    <div class="section-how__instruction col">
+                        <div class="section-how__instruction-img"><img src="./img/how/account.png" alt="icon"></div>
+                        <div class="section-how__instruction-title">Create An Account</div>
+                        <div class="section-how__instruction-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod.</div>
+                    </div>
+                    <div class="section-how__instruction col">
+                        <div class="section-how__instruction-img"><img src="./img/how/confirm.png" alt="icon"></div>
+                        <div class="section-how__instruction-title">Clean Design</div>
+                        <div class="section-how__instruction-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod.</div>
+                    </div>
+                    <div class="section-how__instruction col">
+                        <div class="section-how__instruction-img"><img src="./img/how/results.png" alt="icon"></div>
+                        <div class="section-how__instruction-title">Messaging</div>
+                        <div class="section-how__instruction-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod.</div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    
+        <section class="section-outer section-pricing" id="pricing">
+            <div class="section-inner">
+                <div class="section-pricing__container">
+                    <div class="section-pricing__container-info col">
+                        <div class="section-pricing__container-info__title">Pricing Plan</div>
+                        <div class="section-pricing__container-info__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.</div>
+                        <div class="switcher">
+                            <input type="radio" name="period" id="r-right" checked>
+                            <label for="r-right">Monthly</label>
+                            <input type="radio" name="period" id="r-left">
+                            <label for="r-left">Yearly</label>
                         </div>
                     </div>
-                    <div class="cards">
-                        <div class="icon icon2"></div>
-                        <h1 class="h_cards">Clean Design</h1>
-                        <p class=text>Lorem ipsum dolor sit amet, 
-                            consectetur adipisicing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore</p>
-                    </div>
-                    <div class="cards">
-                        <div class="icon icon3"></div>
-                        <h1 class="h_cards">Messaging</h1>
-                        <p class=text>Lorem ipsum dolor sit amet, 
-                            consectetur adipisicing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore</p>
-                    </div>
-                </div>
-            </setcion>
-
-            <seсtion id=about>
-                <div class="block block1">
-                    <div class="img">
-                        <div class="imge"></div>
-                        <div class="img2"></div>
-                        <div class="bg_image"></div>
-                    </div>
-                    <div class=content_block>
-                        <h1 class=weight500>Easy Messaging</h1>
-                        <p class=text>Lorem ipsum dolor sit amet, 
-                            consectetur adipisicing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. 
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="" class="detail">Read More<div class=icon_detail></div></a>
-                    </div> 
-                </div>
-                <div class="block block2">
-                    <div class="img">
-                        <div class="imge"></div>
-                        <div class="img2"></div>
-                        <div class="bg_image"></div>
-                    </div>
-                    <div class=content_block>
-                        <h1 class=weight500>Keep In Touch</h1>
-                        <p class=text>Lorem ipsum dolor sit amet, consectetur adipisicing 
-                            elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                            magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing 
-                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="" class="detail">Read More<div class=icon_detail></div></a>
-                    </div> 
-                </div>
-            </section>
-
-            <seсtion id=about_work>
-                <div id=title>
-                    <h1 class=weight500>How Does It Works?</h1>
-                    <p class=text>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="info">
-                    <div class="info col">
-                        <div class="info_img"><img src="" alt="icon"></div>
-                        <h1 class="h_cards">Create An Account</h1>
-                        <p class=text>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                        eiusmod.</p>
-                    </div>
-                    <div class="info col">
-                        <div class="info_img"><img src="" alt="icon"></div>
-                        <h1 class="h_cards">Clean Design</h1>
-                        <p class=text>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                        eiusmod.</p>
-                    </div>
-                    <div class="info col">
-                        <div class="info_img"><img src="" alt="icon"></div>
-                        <h1 class="h_cards">Messaging</h1>
-                        <p class=text>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                        eiusmod.</p>
-                    </div>
-                </div>
-            </section>
-
-            <section  id=pricing>
-                <div class="section-inner">
-                    <div class="pricing__info col">
-                        <h1 class=weight500>Pricing Plan</h1>
-                        <p class=text>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Lorem ipsum dolor sit amet.</p>
-                    <div class="switcher">
-                        <input type="radio" name="period" id="r-right" checked>
-                        <label for="r-right">Monthly</label>
-                        <input type="radio" name="period" id="r-left">
-                        <label for="r-left">Yearly</label>
-                    </div>
-                    </div>
-                    <div class="pricing__block">
-                        <div class="plans col">
-                            <div class="plans-img"><img src="" alt="icon"></div>
-                            <h1 class="h_cards">Standard</h1>
-                            <div class="service">
+                    <div class="section-pricing__container-block">
+                        <div class="section-pricing__container-plans col">
+                            <div class="section-pricing__container-plans-img"><img src="./img/pricing/Standard.png" alt="icon"></div>
+                            <div class="section-pricing__container-plans-name">Standard</div>
+                            <div class="section-pricing__container-plans-service">
                                 <p>2gb Hosting</p>
                                 <p>10 Custom Domain</p>
                                 <p>SSD Hosting</p>
                                 <p>50 gb Bandwith</p>
                                 <p>Free Support</p>
                             </div>
-                            <div class="price">&#36;19.00</div>
+                            <div class="section-pricing__container-plans-price">&#36;19.00</div>
                             <div class="btn blue price-btn">
-                                <button class="btn btn2">Try Now</button>
+                                <a href="#" class="">Try Now</a>
                             </div>
-                    </div>
-                    <div class="pricing__block">
-                        <div class="plans col">
-                            <div class="plans-img"><img src="" alt="icon"></div>
-                            <h1 class="h_cards">Premium</h1>
-                            <div class="service">
+                        </div>
+                        <div class="section-pricing__container-plans col">
+                            <div class="section-pricing__container-plans-img"><img src="./img/pricing/Standard.png" alt="icon"></div>
+                            <div class="section-pricing__container-plans-name">Premium</div>
+                            <div class="section-pricing__container-plans-service">
                                 <p>2gb Hosting</p>
                                 <p>10 Custom Domain</p>
                                 <p>SSD Hosting</p>
                                 <p>50 gb Bandwith</p>
                                 <p>Free Support</p>
                             </div>
-                            <div class="price">&#36;49.00</div>
-                            <div class="btn blue price-btn">
-                                <button class="btn btn2">Try Now</button>
+                            <div class="section-pricing__container-plans-price">&#36;49.00</div>
+                            <div class="btn bordered price-btn">
+                                    <a href="#" class="">Try Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <seсtion id=testimonials></section>
-            <seсtion id=news></section>
-
-            <seсtion id=trial>
-                <div class="trial">
-                    <div class="trial__block">
-                        <h1 class=weight500>Try 30 Days Free Trial</h1>
-                        <p class=text>No credit card required</p>
+            </div>
+        </section> 
+    
+        <section class="section-outer section-testimonials">
+            <div class="section-inner-testimonials">
+                <div class="section-testimonials__img">
+                    <img class="section-testimonials__img" src="./img/testimonials/pic.png" alt="">
+            </div>
+                <div class="section-testimonials__container">
+                    <div class="section-testimonials__container-title">Trusted By More Than 55M Peoples</div>
+                    <div class="section-testimonials__container-slider">
+                        <div class="owl-carousel">
+                            <div class="slider-item">
+                                <div class="slider-item__header">
+                                    <div class="slider-item__header-col">
+                                        <p class="name">Raisa Moni 1</p>
+                                        <p class="role">Envato Customer</p>
+                                    </div>
+                                    <div class="item__header-col">
+                                        <img src="img/testimonials/Twitter.png" alt="TW">
+                                    </div>
+                                </div>
+                                <div class="slider-item__body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                                etamet.
+                                </div>
+                            </div>
+            
+                        <div class="slider-item">
+                            <div class="slider-item__header">
+                                <div class="slider-item__header-col">
+                                    <p class="name">Raisa Moni 2</p>
+                                    <p class="role">Envato Customer</p>
+                                </div>
+                                <div class="item__header-col">
+                                    <img src="img/testimonials/Twitter.png" alt="TW">
+                                </div>
+                            </div>
+                            <div class="slider-item__body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            etamet.
+                            </div>
+                        </div>
+            
+                        <div class="slider-item">
+                            <div class="slider-item__header">
+                                <div class="slider-item__header-col">
+                                    <p class="name">Raisa Moni 3</p>
+                                    <p class="role">Envato Customer</p>
+                                </div>
+                                <div class="item__header-col">
+                                    <img src="img/testimonials/Twitter.png" alt="TW">
+                                </div>
+                            </div>
+                            <div class="slider-item__body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            etamet.
+                            </div>
+                        </div>
+            
+                        <div class="slider-item">
+                            <div class="slider-item__header">
+                                <div class="slider-item__header-col">
+                                    <p class="name">Raisa Moni 4</p>
+                                    <p class="role">Envato Customer</p>
+                                </div>
+                                <div class="item__header-col">
+                                    <img src="img/testimonials/Twitter.png" alt="TW">
+                                </div>
+                            </div>
+                            <div class="slider-item__body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            etamet.
+                            </div>
+                        </div>
+            
+                        <div class="slider-item">
+                            <div class="slider-item__header">
+                                <div class="slider-item__header-col">
+                                    <p class="name">Raisa Moni 5</p>
+                                    <p class="role">Envato Customer</p>
+                                </div>
+                                <div class="item__header-col">
+                                    <img src="img/testimonials/Twitter.png" alt="TW">
+                                </div>
+                            </div>
+                            <div class="slider-item__body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            etamet.
+                            </div>
+                        </div>
+            
+                        <div class="slider-item">
+                            <div class="slider-item__header">
+                                <div class="slider-item__header-col">
+                                    <p class="name">Raisa Moni 6</p>
+                                    <p class="role">Envato Customer</p>
+                                </div>
+                                <div class="item__header-col">
+                                    <img src="img/testimonials/Twitter.png" alt="TW">
+                                </div>
+                            </div>
+                            <div class="slider-item__body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            etamet.
+                            </div>
+                        </div>
+            
+                        <div class="slider-item">
+                            <div class="slider-item__header">
+                                <div class="slider-item__header-col">
+                                    <p class="name">Raisa Moni 7</p>
+                                    <p class="role">Envato Customer</p>
+                                </div>
+                                <div class="item__header-col">
+                                    <img src="img/testimonials/Twitter.png" alt="TW">
+                                </div>
+                            </div>
+                            <div class="slider-item__body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            etamet.
+                            </div>
+                        </div>
+                        </div>
                     </div>
-                    <div class="trial__block">
+                </div>
+            </div>
+        </section> 
+    
+        <section class="section-outer section-latest" id="pages">
+            <div class="section-inner-latest">
+                <div class="section-latest__container">
+                    <div class="section-latest__title">Latest News From Us</div>
+                    <div class="section-latest__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.</div>
+            
+                    <div class="section-latest__page">
+                        <article class="section-latest__main-page">
+                        <div class="section-latest__main-page-image">
+                            <img src="img/latest/main.jpg" alt="">
+                        </div>
+                        <div class="section-latest__main-page-title">The master bedroom suite is phenomenally spacious</div>
+                        <div class="section-latest__main-page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris.</div>
+                        <a href="#" class="section-latest__main-page-read-more">Continue Reading &rarr;</a>
+                        </article>
+                        <article class="section-latest__pages">
+                            <article class="item">
+                                <img src="img/latest/1.jpg" alt="">
+                                <div class="section-latest__pages-content">
+                                    <div class="section-latest__pages-title">The master bedroom suite is phenomey spacious</div>
+                                    <div class="section-latest__pages-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do eiusmod.</div>
+                                </div>
+                            </article>
+                
+                            <article class="item">
+                                <img src="img/latest/2.jpg" alt="">
+                                <div class="section-latest__pages-content">
+                                    <div class="section-latest__pages-title">The master bedroom suite is phenomey spacious</div>
+                                    <div class="section-latest__pages-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do eiusmod.</div>
+                                </div>
+                            </article>
+                            <article class="item">
+                                <img src="img/latest/3.jpg" alt="">
+                                <div class="section-latest__pages-content">
+                                    <div class="section-latest__pages-title">The master bedroom suite is phenomey spacious</div>
+                                    <div class="section-latest__pages-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do eiusmod.</div>
+                                </div>
+                            </article>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    
+        <section class="section-outer section-widget">
+            <section class="section-outer section-trial">
+                <div class="section-inner-trial">
+                    <div class="section-trial__block">
+                        <div class="section-trial__block-title">Try 30 Days Free Trial</div>
+                        <div class="section-trial__block-text">No credit card required</div>
+                    </div>
+                    <div class="section-trial__block">
                         <a href="" class="btn-trial">Get Started &rarr;</a>
                     </div>
                 </div>
-            </section>
-
-            <div id=widget>
-                <div class="widget__block">
-                    <h1 class=weight500 id=h_white>AppSon</div>
-                    <form action="#" class="widget__block-form">
+            </section> 
+            <div class="section-inner-widget">
+                <div class="section-widget__block">
+                    <div class="section-widget__block-title">AppSon</div>
+                    <form action="#" class="section-widget__block-form">
                         <input type="text" placeholder="Enter Your Email">
                         <input type="submit" value="SUBSCRIBE">
                     </form>
                 </div>
             </div>
-        </main>
-        <!--FOOTER---------------------------------->
-        <footer id=footer>
-            <div class="footer__content">
-                <div class="content-copyright">&copy; 2018 Copyright, All Rights Reserved by AppSon</div>
-                <nav class="footer__menu">
-                    <ul class="footer__menu-list">
-                        <li><a href="#" class="footer__menu-list__link">Terms &amp; Condition</a></li>
-                        <li><a href="#" class="footer__menu-list__link">Privacy Policy</a></li>
-                        <li><a href="#" class="footer__menu-list__link">Help</a></li>
+        </section> 
+    </main>
+    
+    <footer class="section-outer section-footer">
+        <div class="section-inner footer">
+            <div class="section-footer__content">
+                <div class="section-footer__content-copyright">&copy; 2018 Copyright, All Rights Reserved by AppSon</div>
+                <nav class="section-footer__content-menu">
+                    <ul class="section-footer__content-menu-list">
+                        <li><a href="#" class="section-footer__content-menu-list__link">Terms &amp; Condition</a></li>
+                        <li><a href="#" class="section-footer__content-menu-list__link">Privacy Policy</a></li>
+                        <li><a href="#" class="section-footer__content-menu-list__link">Help</a></li>
                     </ul>
                 </nav>
-                <div class="footer__social">
+                <div class="section-footer__content-social">
                     <a href="https://www.facebook.com/" target="_blank" class="fb">
                         <img src="img/footer/fb.svg" alt="fb">
                     </a>
@@ -234,11 +410,11 @@
                         <img src="img/footer/yt.svg" alt="yt">
                     </a>
                 </div>
-                <div class="footer__scroll-up">
+                <div class="section-footer__content-scroll-up">
                     <a href="#"><img src="img/footer/Icon.jpg" alt=""></a>
                 </div>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 </html>
