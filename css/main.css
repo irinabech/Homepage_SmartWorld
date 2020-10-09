@@ -31,11 +31,8 @@ body {
     height: 100%;
 }
 body {
-    width: 100%;
     line-height: 1;
     font-size: 14px;
-    display: flex;
-    flex-direction: column;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -164,7 +161,7 @@ body {
     background: #fff url(../img/header/first-bg.jpg) no-repeat 50% 50% / cover;
 }
 .section-header .section-inner {
-    margin: 0 140px;
+    
     height: 1042px;
     position: relative;
 }
