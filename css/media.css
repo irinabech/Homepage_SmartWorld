@@ -581,8 +581,8 @@
     }
 }
 @media (max-width:495px) {
-    .section-how {
+    .section-how, .section-testimonials {
         height: 100%;
-        margin: 70px 0 50px 0;
+        margin: 70px 0 70px 0;
     }
 }
