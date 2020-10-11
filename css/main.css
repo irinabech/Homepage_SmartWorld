@@ -224,6 +224,7 @@ body {
 }
 .section-header-navbar__signup {
     background-color: #0063dd;
+    text-align: center;
 }
 .section-header-navbar__signup a {
     font-weight: bold;
