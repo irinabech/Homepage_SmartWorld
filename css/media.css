@@ -666,16 +666,25 @@
     .section-footer__content {
         flex-direction: row;
         flex-wrap: wrap-reverse;
+        margin: auto;
     }
     .section-footer__content-copyright {
-        order: 2;
+
+        padding-right: 0px;
     }
     .section-footer__content-menu {
-        order: 1;
+        padding-right: 0px;
     }
-    .section-footer__content-social {
+
+    .section-footer__content-menu {
+        order: 1;
+    }.section-footer__content-social {
+        order: 2;
+    }
+    .section-footer__content-copyright {
         order: 3;
     }
+    
     .section-footer__content-scroll-up {
         flex-direction: row;
         display: flex;
