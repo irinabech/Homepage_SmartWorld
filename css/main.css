@@ -163,6 +163,9 @@ body {
     
     background: #fff url(../img/header/first-bg.jpg) no-repeat 50% 50% / cover;
 }
+.mobile-menu {
+    display: none;
+}
 .section-header .section-inner {
     
     height: 1042px;
@@ -222,7 +225,7 @@ body {
     font-size: 16px;
     line-height: 27px;
 }
-.section-header-navbar__signup {
+.section-header-navbar__signup, .section-header-navbar__signup2 {
     background-color: #0063dd;
     font-weight: bold;
     font-size: 16px;
