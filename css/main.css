@@ -74,8 +74,8 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 .switcher {
+    width: 333px;
     display: flex;
-    margin: 0 20px;
 }
 .switcher input {
     clip: rect(0, 0, 0, 0);
@@ -521,12 +521,14 @@ body {
     line-height: 36px;
     margin-bottom: 20px;
     color: #333333;
+    width: 322px;
 }
 .section-pricing__container-info__text {
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 20px;
     color: #929292;
+    width: 322px;
 }
 .section-pricing__container-info__period {
     display: flex;
