@@ -397,8 +397,8 @@ body {
 }
 .section-about__container-pics .back-pic {
     position: relative;
-    left: -265px;
-    top: 116px;
+    left: -280px;
+    top: 109px;
     z-index: 2;
     height: fit-content;
     -webkit-box-shadow: 3px 3px 13px 0px rgba(105, 105, 105, 0.75);
@@ -407,8 +407,8 @@ body {
     box-shadow: 3px 3px 13px 0px rgba(105, 105, 105, 0.75);
 }
 .section-about__container-pics .front-pic {
-    left: 329px;
-    top: 147px;
+    left: 319px;
+    top: 140px;
     z-index: 3;
     position: absolute;
     -webkit-box-shadow: 3px 3px 13px 0px rgba(105, 105, 105, 0.75);
