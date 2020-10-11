@@ -56,10 +56,10 @@
 /*Меню навигации*/
 @media (max-width: 935px){
     .section-header-navbar__menu, .section-header-navbar__signup{
-        display: none;
+        display: none !important;
     }
     .mobile-menu {
-        position: fixed;
+        position: absolute;
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -156,6 +156,11 @@
     .mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon::before {
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
+    }
+}
+@media (max-width: 485px) {
+    .section-header {
+        background: #f4fcfe !important;
     }
 }
 
