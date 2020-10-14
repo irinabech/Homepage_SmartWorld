@@ -68,8 +68,8 @@
         background-color: transparent;
         left: 0;
         right: 0;
-        height: 50px;
-        z-index: 9999999;
+        height: 400px;
+        z-index: 9;
     }
     .mobile-menu__btn {
         position: relative;
@@ -80,6 +80,8 @@
         height: 30px;
         cursor: pointer;
         transition: .4s;
+        top: -180px;
+        z-index: 999999;
     }
     .mobile-menu__icon {
         display: block;
@@ -105,14 +107,14 @@
         top: -8px;
     }
     .mobile-menu__container {
-        position: fixed;
+        position: absolute;
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
-        top: 50px;
-        left: 50%;
+        top: 0;
         right: 0;
+        left: 0;
         z-index: 999;
         height: 0;
         opacity: 1;
