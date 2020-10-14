@@ -302,7 +302,7 @@
         margin-bottom: 20px;
     }
     .section-latest {
-        height: 1500px;
+        max-height: 1500px;
     }
     .section-latest__container {
         height: 100%;
@@ -476,7 +476,7 @@
         padding: 70px 0 70px 17px;
     }
     .section-latest {
-        height: 1650px;
+        max-height: 1650px;
     }
     .section-latest__container {
         height: 100%;
@@ -634,7 +634,7 @@
         padding: 0;
     }
     .section-latest {
-        height: 2200px;
+        max-height: 2200px;
     }
     .section-latest__text {
         margin-bottom: 20px;
