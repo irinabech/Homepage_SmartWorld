@@ -240,6 +240,7 @@
         height: auto;
     }
     .section-inner-about {
+        margin-top: 250px;
         justify-content: flex-end;
     }
     .section-about__container {
@@ -610,7 +611,7 @@
         margin-bottom: 30px;
     }
     .section-how {
-        height: 1111px;
+        height: auto;
     }
     .section-pricing {
         height: 1140px;

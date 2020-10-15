@@ -38,3 +38,8 @@
         background-position: -125% 0;
     }
 }
+@media (max-width: 1000px) {
+    .section-inner-about {
+        margin-top: 20px;
+    }
+}
