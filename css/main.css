@@ -198,7 +198,7 @@ body {
     background: transparent;
 }
 .section-header-navbar__menu {
-    display: flex;
+    margin-right: 12px;
     flex-grow: 1;
     flex-direction: row-reverse;
 }
@@ -348,7 +348,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 0 16%;
+    margin: 54px 16%;
     height: 100%;
 }
 .section-about {
@@ -356,6 +356,7 @@ body {
 }
 .section-about .second {
     flex-direction: row-reverse;
+    
 }
 .section-about .second .section-about__container-pics {
     display: flex;
@@ -369,7 +370,7 @@ body {
     border-radius: 50px;
     transform: rotate(-34deg);
     position: relative;
-    top: 50px;
+    top: 23px;
     left: 201px;
     z-index: 1;
 }
@@ -391,7 +392,7 @@ body {
     border-radius: 50px;
     transform: rotate(-38deg);
     position: relative;
-    top: 50px;
+    top: 49px;
     left: 55px;
     z-index: 1;
 }
@@ -605,11 +606,12 @@ body {
     width: 98vw;
 }
 .section-testimonials {
-    background-color: #f5fcfd;
     height: 608px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+    background-color: #f5fcfd;
+    background-image: url(../img/testimonials/pic.png) ;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 752px 608px;
 }
 .section-testimonials__img {
     width: 100%;
@@ -625,14 +627,14 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    margin: 100px 10px 100px 20px;
-    flex: 1 1 70%;
+    margin: 130px 10px 130px 45%;
+  
 }
 .section-testimonials__container-title {
     font-weight: 500;
     font-size: calc(18px + 15 * (100vw / 1920));
     line-height: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #333333;
 }
 .section-testimonials__container-slider {
@@ -650,8 +652,10 @@ body {
 .slick-track {
     display: flex;
 }
-.owl-carousel .slick-dots {
+.owl-carousel .slick-dots 
+    {
     display: flex;
+    margin-top: 30px;
     padding: 10px 5px;
     align-items: center;
 }
@@ -679,7 +683,7 @@ body {
     background-color: #0f7bff;
 }
 .slider-item {
-    margin: 0 5px;
+    margin: 0 15px;
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -986,6 +990,7 @@ body {
     vertical-align: middle;
 }
 .section-footer__content-scroll-up {
+    margin-right: 5%;
     width: 45px;
     height: 45px;
     background-color: #fff;

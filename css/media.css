@@ -52,6 +52,23 @@
     .section-header-navbar__menu.active .section-header-navbar__menu-list li a:focus {
         color: #0f7bff;
     }
+    .section-features__icons {
+        flex-direction: column;
+        height: auto;
+    }
+    .icon-1,
+    .icon-2,
+    .icon-3 {
+        align-self: center;
+    }
+    .section-features {
+        height: 1111px;
+    }
+    .section-features__icon {
+        padding: 5px 5px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
 }
 /*Меню навигации*/
 @media (max-width: 935px){
@@ -220,7 +237,7 @@
         height: 30%;
     }
     .section-about {
-        height: 1620px;
+        height: auto;
     }
     .section-inner-about {
         justify-content: flex-end;
@@ -260,7 +277,7 @@
         margin: 0 15%;
     }
     .section-about {
-        height: 1820px;
+        height: auto;
     }
     .section-about {
         background: #fff;
@@ -361,6 +378,8 @@
     .section-trial__block .btn-trial {
         align-self: center;
     }
+    .section-testimonials {
+        background: #f5fcfd;
 }
 @media (max-width: 935px) {
     .section-header-wrapper__buttons {
@@ -387,25 +406,10 @@
     .section-header-wrapper__title {
         margin-bottom: 20px;
     }
-    .section-features__icons {
-        flex-direction: column;
-        height: auto;
-    }
-    .icon-1,
-    .icon-2,
-    .icon-3 {
-        align-self: center;
-    }
-    .section-features {
-        height: 1111px;
-    }
-    .section-features__icon {
-        width: 100%;
-        margin-bottom: 25px;
-    }
+    
     .section-about {
         background: #fff;
-        height: 653px;
+        height: auto;
     }
     .section-about__container-info {
         width: 100%;
@@ -429,7 +433,7 @@
         display: none;
     }
     .section-how {
-        height: 1011px;
+        height: auto;
     }
     .section-how__title {
         background: none;
@@ -591,7 +595,7 @@
         padding: 10px 35px;
     }
     .section-about {
-        height: 633px;
+        height: auto;
     }
     .section-about__container-info {
         width: 100%;
@@ -698,19 +702,4 @@
         padding: 10px 22px;
     }
 }
-@media (max-width: 1600px) {
-    .section-inner-about {
-        margin: 0 10%;
-    }
-}
-@media (max-width: 1300px) {
-    .section-inner-about {
-        margin: 0 5%;
-    }
-}
-@media (max-width:495px) {
-    .section-how, .section-testimonials {
-        height: 100%;
-        margin: 70px 0 70px 0;
-    }
 }

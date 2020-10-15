@@ -1,0 +1,40 @@
+@media  (max-width:1800px) {
+    .section-testimonials {
+        background-position: -2% 0;
+    }
+}
+@media  (max-width:1700px) {
+    .section-testimonials {
+        background-position: -10% 0;
+    }
+}
+@media  (max-width:1550px) {
+    .section-testimonials {
+        background-position: -22% 0;
+    }
+}
+@media  (max-width:1400px) {
+    .section-testimonials {
+        background-position: -42% 0;
+    }
+}
+@media  (max-width:1250px) {
+    .section-testimonials {
+        background-position: -52% 0;
+    }
+}
+@media  (max-width:1200px) {
+    .section-testimonials {
+        background-position: -72% 0;
+    }
+}
+@media  (max-width:1130px) {
+    .section-testimonials {
+        background-position: -92% 0;
+    }
+}
+@media  (max-width:1168px) {
+    .section-testimonials {
+        background-position: -125% 0;
+    }
+}
